@@ -2,7 +2,7 @@
 # coding=utf-8
 """
 Filename:       main.py
-Last modified:  2015-12-04 20:31
+Last modified:  2015-12-04 21:08
 
 Description:
 
@@ -91,4 +91,4 @@ print root_node
 
 with open('data.json', 'w') as f:
     data = {'data': [root_node]}
-    f.write(json.dumps(root_node))
+    f.write(json.dumps(data))
